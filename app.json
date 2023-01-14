@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "igniteshoesapp",
+    "name": "Ignite Shoes",
     "slug": "igniteshoesapp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -28,6 +28,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "onesignal-expo-plugin",
+        {
+          "mode": "development"
+        }
+      ]
+    ]
   }
 }
