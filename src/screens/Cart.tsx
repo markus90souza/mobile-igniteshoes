@@ -1,7 +1,6 @@
-import { VStack } from 'native-base';
+import { VStack } from 'native-base'
 
-import { ItemsCart } from '../components/ItemsCart';
-import { ScreenHeader } from '../components/ScreenHeader';
+import { ScreenHeader, ItemsCart } from '@components/index'
 
 export function Cart() {
   return (
@@ -9,5 +8,5 @@ export function Cart() {
       <ScreenHeader title="Carrinho" />
       <ItemsCart />
     </VStack>
-  );
+  )
 }
